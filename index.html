@@ -3,63 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
-    <!-- Estilos CSS -->
+    <title>Título da Página</title>
+    <!-- Inclua aqui seus estilos CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Barra de navegação lateral esquerda -->
-    <nav class="sidebar">
-        <ul>
-            <li><a href="#meta-diaria">Meta Diária</a></li>
-            <li><a href="#meta-semanal">Meta Semanal</a></li>
-            <li><a href="#aulas-materias">Aulas e Matérias</a></li>
-            <li><a href="#relatorio-questoes">Relatório de Questões</a></li>
-            <li><a href="#meu-plano">Meu Plano</a></li>
-            <li><a href="#edital-plano">Edital do Plano</a></li>
-            <li><a href="#desempenho">Desempenho</a></li>
-        </ul>
-    </nav>
+    <!-- Seu conteúdo HTML aqui -->
+    <header>
+        <!-- Incluir o cabeçalho da sua página aqui -->
+        <h1>Minha Página</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Conteúdo principal -->
-    <div class="content">
-        <!-- Página de login -->
-        <div id="login" class="page">
-            <h2>Login</h2>
-            <form action="login.php" method="post">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-                <button type="submit">Entrar</button>
-            </form>
-        </div>
+    <main>
+        <!-- Conteúdo principal da sua página aqui -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Bem-vindo à página inicial.</p>
+        </section>
 
-        <!-- Outras páginas -->
-        <div id="meta-diaria" class="page">
-            <!-- Conteúdo da página Meta Diária -->
-        </div>
-        <div id="meta-semanal" class="page">
-            <!-- Conteúdo da página Meta Semanal -->
-        </div>
-        <div id="aulas-materias" class="page">
-            <!-- Conteúdo da página Aulas e Matérias -->
-        </div>
-        <div id="relatorio-questoes" class="page">
-            <!-- Conteúdo da página Relatório de Questões -->
-        </div>
-        <div id="meu-plano" class="page">
-            <!-- Conteúdo da página Meu Plano -->
-        </div>
-        <div id="edital-plano" class="page">
-            <!-- Conteúdo da página Edital do Plano -->
-        </div>
-        <div id="desempenho" class="page">
-            <!-- Conteúdo da página Desempenho -->
-        </div>
-    </div>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Algumas informações sobre esta página.</p>
+        </section>
 
-    <!-- Scripts JavaScript -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco.</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Rodapé da sua página aqui -->
+        <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Inclua aqui seus scripts JavaScript -->
     <script src="scripts.js"></script>
 </body>
 </html>
