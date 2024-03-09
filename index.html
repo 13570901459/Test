@@ -3,64 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma de Estudos Personalizados</title>
+    <title>Página de Login</title>
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Se você tiver algum estilo CSS, adicione o link para o arquivo styles.css aqui -->
 </head>
 <body>
+    <!-- Barra de navegação lateral esquerda -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#meta-diaria">Meta Diária</a></li>
+            <li><a href="#meta-semanal">Meta Semanal</a></li>
+            <li><a href="#aulas-materias">Aulas e Matérias</a></li>
+            <li><a href="#relatorio-questoes">Relatório de Questões</a></li>
+            <li><a href="#meu-plano">Meu Plano</a></li>
+            <li><a href="#edital-plano">Edital do Plano</a></li>
+            <li><a href="#desempenho">Desempenho</a></li>
+        </ul>
+    </nav>
 
-    <header>
-        <!-- Cabeçalho da Página -->
-        <h1>Plataforma de Estudos Personalizados</h1>
-        <nav>
-            <ul>
-                <li><a href="#planos">Planos de Estudo</a></li>
-                <li><a href="#pagamentos">Pagamentos Integrados</a></li>
-                <li><a href="#videoaulas">Videoaulas com DRM</a></li>
-                <li><a href="#materiais">Materiais de Apoio</a></li>
-                <li><a href="#automacao">Automação dos Processos</a></li>
-                <li><a href="#relatorios">Relatórios de Desempenho</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <!-- Página de login -->
+        <div id="login" class="page">
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
 
-    <main>
-        <!-- Conteúdo Principal -->
-        <section id="planos">
-            <h2>Planos de Estudo Individualizados</h2>
-            <p>Crie planos de estudo moldados com nossa metodologia para melhorar a entrega de valor aos alunos.</p>
-        </section>
+        <!-- Outras páginas -->
+        <div id="meta-diaria" class="page">
+            <!-- Conteúdo da página Meta Diária -->
+        </div>
+        <div id="meta-semanal" class="page">
+            <!-- Conteúdo da página Meta Semanal -->
+        </div>
+        <div id="aulas-materias" class="page">
+            <!-- Conteúdo da página Aulas e Matérias -->
+        </div>
+        <div id="relatorio-questoes" class="page">
+            <!-- Conteúdo da página Relatório de Questões -->
+        </div>
+        <div id="meu-plano" class="page">
+            <!-- Conteúdo da página Meu Plano -->
+        </div>
+        <div id="edital-plano" class="page">
+            <!-- Conteúdo da página Edital do Plano -->
+        </div>
+        <div id="desempenho" class="page">
+            <!-- Conteúdo da página Desempenho -->
+        </div>
+    </div>
 
-        <section id="pagamentos">
-            <h2>Pagamentos Integrados</h2>
-            <p>Facilite o processo de pagamento dos seus alunos de forma integrada e segura.</p>
-        </section>
-
-        <section id="videoaulas">
-            <h2>Videoaulas com DRM</h2>
-            <p>Ofereça videoaulas protegidas por tecnologia DRM para garantir a segurança dos seus conteúdos.</p>
-        </section>
-
-        <section id="materiais">
-            <h2>Materiais de Apoio Seguros</h2>
-            <p>Armazene materiais de apoio de forma segura para auxiliar os alunos nos estudos.</p>
-        </section>
-
-        <section id="automacao">
-            <h2>Automação dos Processos</h2>
-            <p>Utilize nossa tecnologia para automatizar seus processos e focar no que realmente importa: a entrega de valor para seus alunos.</p>
-        </section>
-
-        <section id="relatorios">
-            <h2>Relatórios de Desempenho em Tempo Real</h2>
-            <p>Acompanhe o desempenho dos seus alunos em tempo real com relatórios detalhados.</p>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Rodapé da Página -->
-        <p>&copy; 2024 Plataforma de Estudos Personalizados - Todos os direitos reservados</p>
-    </footer>
-
+    <!-- Scripts JavaScript -->
+    <script src="scripts.js"></script>
 </body>
 </html>
